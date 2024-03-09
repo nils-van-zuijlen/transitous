@@ -1,0 +1,22 @@
+/*
+ * SPDX-FileCopyrightText: 2024 Jonah Brüchert <jbb@kaidan.im>
+ *
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
+
+.btn-primary {
+  --bs-btn-bg: #F4AB45;
+  --bs-btn-border-color: #e69e41;
+  --bs-btn-hover-bg: #d9963d;
+  --bs-btn-hover-border-color: #b57d33;
+  --bs-btn-active-bg: #e8cc42;
+  --bs-btn-color: #000000;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #F4AB45
+}
+
+.dropdown-item-active {
+  background-color: var(--bs-dropdown-link-active-bg);
+}
